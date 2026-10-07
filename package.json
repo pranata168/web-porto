@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-ilmu-pemerintahan",
+  "version": "1.0.0",
+  "description": "Website Portofolio Interaktif & Digital CV Fresh Graduate Ilmu Pemerintahan",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "government-affairs",
+    "public-policy",
+    "react",
+    "cv"
+  ],
+  "author": "Fresh Graduate Ilmu Pemerintahan",
+  "license": "MIT"
+}

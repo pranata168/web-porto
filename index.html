@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio & Digital CV (React.js) | Fresh Graduate Ilmu Pemerintahan</title>
+  <meta name="description" content="Website Portofolio Interaktif & CV Digital berbasis React.js untuk Fresh Graduate Ilmu Pemerintahan - Analisis Kebijakan Publik, Riset Pemerintahan, & Tata Kelola.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- React 18 & ReactDOM via CDN (Bisa langsung jalan tanpa perlu install Node.js/NPM) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  
+  <!-- Babel Standalone for In-Browser JSX Compilation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <!-- React Root Container -->
+  <div id="root"></div>
+
+  <!-- PRINT-ONLY CURRICULUM VITAE STYLESHEET EMBED -->
+  <div id="print-cv-container" class="print-cv-only">
+    <div class="print-header">
+      <h1>NAMA LENGKAP, S.IP</h1>
+      <p class="print-subtitle">Fresh Graduate Ilmu Pemerintahan | Analis Kebijakan Publik & Tata Kelola</p>
+      <div class="print-contacts">
+        <span>Email: email.anda@gmail.com</span> | 
+        <span>Telp: +62 812-3456-7890</span> | 
+        <span>LinkedIn: linkedin.com/in/profil-anda</span> | 
+        <span>Domisili: Jakarta / Yogyakarta</span>
+      </div>
+    </div>
+    <hr class="print-divider">
+    <div class="print-section">
+      <h3>RINGKASAN EKSEKUTIF</h3>
+      <p>Lulusan Sarjana Ilmu Pemerintahan dengan IPK 3.85 (Cumlaude) yang memiliki kemampuan kuat dalam analisis kebijakan publik, metodologi riset soshum (SPSS & NVivo), perumusan policy memo, dan pemahaman regulasi birokrasi daerah. Berpengalaman magang di Bappeda dan aktif memimpin organisasi kajian isu strategis mahasiswa.</p>
+    </div>
+    <div class="print-section">
+      <h3>PENDIDIKAN</h3>
+      <p><strong>Sarjana Ilmu Pemerintahan (S.IP)</strong> - Universitas Terkemuka (2020 - 2024)<br>
+      IPK: 3.85 / 4.00 (Cumlaude) | Skripsi: Evaluasi Implementasi Kebijakan Dana Desa Inklusif (Nilai A)</p>
+    </div>
+    <div class="print-section">
+      <h3>PENGALAMAN KERJA & RISET</h3>
+      <p><strong>Intern Asisten Analis Kebijakan</strong> - BAPPEDA (Feb - Mei 2024)<br>
+      - Membantu penyusunan naskah LKjIP dan asistensi verifikasi usulan Musrenbang kecamatan di SIPD.<br>
+      <strong>Research Assistant</strong> - Lab Tata Kelola & Kebijakan Publik (Agt - Des 2023)<br>
+      - Melakukan koding data 18 wawancara mendalam dan menyusun telaah pustaka artikel SINTA 2.</p>
+    </div>
+    <div class="print-section">
+      <h3>KEAHLIAN UTAMA</h3>
+      <p>Policy Brief Drafting, Stakeholder Mapping, Analisis Kualitatif & Kuantitatif (SPSS, NVivo), Excel Advance, Fasilitator FGD, Manajemen Program Publik.</p>
+    </div>
+  </div>
+
+  <!-- React JSX Application Script -->
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
