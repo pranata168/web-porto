@@ -365,6 +365,7 @@ a {
   margin-bottom: 1.25rem;
   font-family: var(--font-main);
   line-height: 1.2;
+  color: #ffffff;
 }
 
 .hero-subtitle {

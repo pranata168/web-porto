@@ -241,12 +241,7 @@ function App() {
             </div>
 
             <h1 className="hero-title">
-              {heroContent.title.split('Kebijakan Publik').map((part, i) => (
-                <React.Fragment key={i}>
-                  {part}
-                  {i === 0 && heroContent.title.includes('Kebijakan Publik') && <span className="gradient-text">Kebijakan Publik</span>}
-                </React.Fragment>
-              ))}
+              {heroContent.title}
             </h1>
 
             <p className="hero-subtitle">{heroContent.subtitle}</p>
